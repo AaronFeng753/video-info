@@ -7,7 +7,7 @@ get frame number : [video.exe videoFilePath countframe]
 get digits of frame number : [video.exe videoFilePath countframedigits]
 
 # QT Example
-`
+
 int MainWindow::video_get_fps(QString videoPath)
 {
     QString Current_Path = qApp->applicationDirPath();
@@ -33,4 +33,4 @@ int MainWindow::video_get_frameNumDigits(QString videoPath)
     int frameNumDigits=vid.readAllStandardOutput().toInt();
     return frameNumDigits;
 }
-`
+
