@@ -6,7 +6,5 @@ get frame number : [video.exe videoFilePath countframe]
 
 get digits of frame number : [video.exe videoFilePath countframedigits]
 
-# QT Example
-
 
 
